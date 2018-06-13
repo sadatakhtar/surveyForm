@@ -1,0 +1,36 @@
+.container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns:repeat(4, 1fr) ;
+    background-color: #e37f4d;
+    
+
+   
+}
+
+.footer {
+    grid-column: 1/5;
+    grid-row: 4;
+    border:1px solid #333;
+    text-align: end;
+    padding-top: 70px;
+    background-color: dimgray;
+    color: white;
+    
+}
+.title {
+    grid-row: 1;
+    grid-column: 1/5;
+    border:1px solid #333;
+    text-align: center;
+    background-color: #4db6e3;
+    color: white;
+
+}
+.text-box {
+    grid-row: 2/4;
+    grid-column: 2/4;
+    border:1px solid #333;
+    text-align: end;
+    padding-right: 37%;
+}
